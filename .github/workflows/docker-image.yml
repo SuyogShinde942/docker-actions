@@ -27,7 +27,7 @@ jobs:
          tag_prefix: "v"
          major_pattern: "MAJOR CHANGE:"
          minor_pattern: "MINOR CHANGE:"
-         format: "v${major}.${minor}.${patch}-${increment}-$SERVICE"
+         version_format: "v${major}.${minor}.${patch}-${increment}-$SERVICE"
          
     - uses: actions/checkout@v3
     - name: docker login
