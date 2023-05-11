@@ -26,6 +26,7 @@ jobs:
       with:
          branch: main
          tag_prefix: "v"
+         bump_each_commit: true
          major_pattern: "MAJOR CHANGE:"
          minor_pattern: "MINOR CHANGE:"
          version_format: "v${major}.${minor}.${patch}-${increment}-$SERVICE"
